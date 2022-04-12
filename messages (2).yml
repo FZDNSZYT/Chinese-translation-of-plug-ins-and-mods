@@ -1,0 +1,206 @@
+# 汉化作者:FZDNSZYT,b站ID:风中的女神只咏叹。欢迎支持我
+# 语言文件:中文简体,插件版本:1.0.228-E
+General:
+  Language: Chinese
+  DisabledServer: '&c此命令不能在此处执行。'
+  UnableToConnectToServerRedisBungee: '&c无法加入服务器。'
+Party:
+  Error:
+    CommandNotFound:
+    - '&c此命令不存在！'
+    - '&c此命令不存在！'
+    NoPermission: '&c你没有执行这个命令的权限！'
+  CommandUsage:
+    Join: '&8/&5派对加入 &8- &7加入派对'
+    Deny: '&8/&5派对拒绝 &8- &7拒绝派对邀请'
+    Invite: '&8/&5派对邀请 &8- &7邀请玩家加入你的派对'
+    InviteSetting: '&8/&5派对设置 &8- &7启用/禁用派对邀请'
+    List: '&8/&5队伍列表 &8- &7列出队伍中的所有玩家'
+    Chat: '&8/&5派对聊天 &8- &7向派对中的所有玩家发送消息'
+    Leave: '&8/&5离开 &8- &7离开组队'
+    Kick: '&8/&5踢人 &8- &7 将玩家踢出组队'
+    Leader: '&8/&5队长转让 &5 &8- &7让另一个玩家成为小队首领'
+  Command:
+    General:
+      ErrorNoParty: '&5你需要参加派对。'
+      ErrorNotPartyLeader: '&c你不是党领袖。'
+      ErrorGivenPlayerIsNotInTheParty: '&c玩家 &e[PLAYER] &cis 不在派对中。'
+      ErrorNoPlayer: '&c你需要指定一个播放器。'
+      ErrorPlayerNotOnline: '&c此玩家不在线。'
+      DissolvedPartyCauseOfNotEnoughPlayers: '&5聚会解散是因为有
+        没有足够的球员。'
+      PlayerHasLeftTheParty: '&b玩家&6[PLAYER] &b已离开派对。'
+      ServerSwitched: '&b方已加入服务器&e[SERVER]&b.'
+    Chat:
+      ErrorNoMessage: '&5你需要给出一条消息。'
+      Prefix: '&7[&5PartyChat&7]'
+      ContentColor: '&7'
+      PartyChatOutput: '&e[SENDERNAME]&5:[MESSAGE_CONTENT]'
+    Info:
+      Empty: 空
+      PlayersCut: '&7, &b'
+      Leader: '&3领袖&7: &5[领袖]'
+      Players: '&8玩家&7: &b'
+    Invite:
+      GivenPlayerEqualsSender: '&7你不能邀请自己。'
+      CanNotInviteThisPlayer: '&c你不能邀请这个玩家加入你的队伍。'
+      AlreadyInAParty: '&c此玩家已加入派对。'
+      AlreadyInYourParty: '&c玩家 &e[PLAYER] &cis 已经被邀请加入你的
+        派对。'
+      MaxPlayersInPartyReached: '&c派对的最大人数是 [MAXPLAYERSINPARTY]。'
+      InvitedPlayer: '&6[PLAYER] &b被邀请参加你的聚会。'
+      YouWereInvitedBY: '&5你被邀请参加 &6[PLAYER]的 &5队伍！'
+      AcceptInvite: '&a使用命令 &6/Party &6join &6[PLAYER]&a! 加入队伍'
+      AcceptInviteHOVER: '&a点击这里加入派对'
+      DeclineInvite: '&c 使用命令 &6/Party &6deny 拒绝邀请
+        &6[玩家]&c!'
+      DeclineInviteHOVER: '&c点击这里拒绝邀请'
+      InvitationTimedOutInvited: '&5&6[PLAYER]的&5队伍邀请已超时！'
+      InvitationTimedOutLeader: '&5玩家&6[PLAYER] &5没有接受你的邀请！'
+    Join:
+      PlayerHasNoParty: '&c此玩家没有派对。'
+      AlreadyInAPartyError: '&c你已经在聚会中。使用 &6/party leave &cto
+        离开这个派对。'
+      PlayerHasJoined: '&b玩家 &6[PLAYER] &b加入了队伍。'
+      ErrorNoInvitation: '&c你不能加入这个聚会。'
+      MaxPlayersInPartyReached: '&c派对的最大人数是 [MAXPLAYERSINPARTY]。'
+    Deny:
+      PlayerHasNoParty: '&c此玩家没有派对。'
+      PlayerHasDeniedInvitation: '&b玩家&6[PLAYER] &b拒绝了邀请。'
+      DeniedInvitation: '&b你拒绝了聚会邀请。'
+      ErrorNoInvitation: '&c你没有被邀请参加那个聚会。'
+    Kick:
+      KickedPlayerOutOfThePartyOthers: '&b玩家 &6[PLAYER] &b被踢出
+        派对。'
+      KickedPlayerOutOfThePartyKickedPlayer: '&b你已被踢出派对。'
+    Leader:
+      SenderEqualsGivenPlayer: '&7你不能让自己给自己转让队长。'
+      NewLeaderIs: '&7新的队长是 &6[NEWLEADER]'
+    Leave:
+      NewLeaderIs: '&b 领袖已离队。新领导人是 &e[NEWLEADER]。'
+      YouLeftTheParty:
+      - '&b你离开了你的派对。'
+  General:
+    PartyPrefix: '&7[&5Party&7] '
+    HelpBegin: '&8&m-------------------&r&8[&5&lParty&8]&m-------------------'
+    HelpEnd: '&8&m---------------------------------------------'
+Friends:
+  General:
+    CommandNotFound:
+    - ' &c该命令不存在。'
+    - ' &c对不起，没有找到您要搜索的命令。'
+    NoPermission: ' &c你没有执行这个命令的权限。'
+    PlayerIsOffline: ' &7玩家&e[PLAYER] &7不在线或者你不是他的队友。'
+    NotAFriendOfOrOffline: ' &7玩家 &e[PLAYER] &7不在线或者你不是他的队友。'
+    NoFriendGiven: ' &7你需要指定一个队友。'
+    NoPlayerGiven: ' &7你需要指定一个玩家。'
+    PlayerIsNowOffline: ' &7你的队友&e[PLAYER]&7他现在&c不在线.'
+    PlayerIsNowOnline: ' &7你的队友&e[PLAYER] &7他现在&a在线。'
+    RequestInfoOnJoin: ' &7你&7有&7组队&7请求&7来自: [FRIENDREQUESTS]'
+    DoesNotExist: ' &7指定的玩家&7不存在&7'
+    GivenPlayerEqualsSender: ' &7你不能将自己指定为玩家参数。'
+    Prefix: '&8[&5&l队友们&8]'
+    HelpBegin: '&8&m-------------------&r&8[&5&l队友们&8]&m-------------------'
+    HelpEnd: '&8&m---------------------------------------------------------- -'
+    RequestInfoOnJoinColor: '&e'
+    RequestInfoOnJoinColorComma: '&7'
+  GUI:
+    NoFriendRequests: ' &7您目前没有任何待处理的好友请求。'
+    Hide:
+      ShowAllPlayers: ' &a现在将显示所有玩家。'
+      ShowOnlyFriendsAndPeopleFromTheServer: ' &e现在会显示服务器所有在线的队友和玩家。 '
+      ShowOnlyFriends: ' &6现在只显示你的朋友。'
+      ShowOnlyPeopleFromTheServer: ' &5现在只显示服务器的玩家。'
+      ShowNobody: ' &c现在不会显示任何玩家。'
+      ShowPartyMembers: ' &d从现在开始，只有在你的队伍中的玩家是可见的。'
+  CommandUsage:
+    List: '&8/&5friend list&r &8- &7列出你所有的好友'
+    MSG: '&8/&5friend msg [队友的名字] [信息]&r &8- &7发私聊给一个队友'
+    ADD: '&8/&5friend add [玩家名称]&r &8- &7Add afriend'
+    Accept: '&8/&5friend accept [玩家名称]&r &8- &7接受好友请求'
+    Deny: '&8/&5friend deny [玩家名称]&r &8- &7拒绝好友请求'
+    Remove: '&8/&5friend &5remove &5[队&5友&5的&5名字]&r &8- &7删除&7指定的队友'
+    Jump: '&8/&5friend jump [队友的名字]&r &8- &7传送到队友身边'
+    Settings: '&8/friend settings &r &8- &7更改队友设置'
+  Command:
+    Accept:
+      NowFriends: ' &7你和 &e[PLAYER] &7现在是好友了'
+      ErrorNoFriendShipInvitation: ' &7你没有收到来自&e[PLAYER]&7的好友请求。'
+      ErrorSenderEqualsReceiver: '&7你不能给自己发消息。'
+      ErrorAlreadySend: ' &7你已经向&e[PLAYER] &7发送了好友请求。'
+    Add:
+      SenderEqualsReceiver: ' &7您不能向自己发送好友请求。'
+      FriendRequestFromReceiver: ' &7你已经给&e[PLAYER] &7发了好友请求'
+      FriendRequestReceived: ' &7你收到了来自 &e[PLAYER]&7 的好友请求。'
+      ClickHere: '&a点击这里接受好友请求'
+      SentAFriendRequest: ' &7玩家 &e[PLAYER] &7收到了你的好友请求。'
+      CanNotSendThisPlayer: ' &7你不能向玩家发送 &e[PLAYER] &7好友请求。'
+      HowToAccept: ' &7输入指令&6/friend accept 接受[PLAYER]&7的好友请求.'
+      AlreadyFriends: ' &7你和 &e[PLAYER] &7已经是队友了。'
+      FriendRequestTimedOut: ' &7来自&e[PLAYER] &7的好友请求已超时。'
+    Deny:
+      HasDenied: ' &7你拒绝了 &e[PLAYER]s&7 好友请求。'
+      NoFriendRequest: ' &7你没有收到来自 &e[PLAYER]&7 的好友请求。'
+    Settings:
+      NowYouCanGetInvitedByEveryone: ' &7你现在可以&a加入&7任何游戏。'
+      NowYouCanGetInvitedByFriends: ' &7现在你只能和&c你的好友&7或者被&c你的好友&7邀请加入游戏。'
+      NowYouAreNotGoneReceiveFriendRequests: ' &7你已拒绝接收任何好友请求。'
+      NowYouAreGoneReceiveFriendRequests: ' &7当前你可以收到好友请求。'
+      NowYouAreNotGoneReceiveMessages: ' &7当前你已拒绝接收好友私聊。'
+      NowYouWillBeShowAsOnline: ' &7现在你将显示为&a在线&7状态。'
+      NowYouWilBeShownAsOffline: ' &7现在你将显示为&c离线&7状态。'
+      NowYouWillReceiveOnlineStatusNotification: ' &7当前你的好友上/下线。系统都会给你发送一个通知消息'
+      NowYouWillNotReceiveOnlineStatusNotification: ' &7关闭好友上/下线通知。'
+      NowNoMessages: ' &7已&c拒收&7任何消息了。'
+      NowMessages: ' &7现在你将&7接收来自所有人的消息。'
+      NowYourFriendsCanJump: ' &7现在你的好友&a申请&7传送到你身边。'
+      NowYourFriendsCanNotJump: ' &7已&c禁止&7好友发起传送申请。'
+      Introduction: ' &7这些是你的设置:'
+      FriendRequestSettingEveryone: '&7&7此刻你将收到来自&a大家&7的好友请求。 要拒绝接收，请使用 &6/friend settings &7更改好友请求接收状态&7。'
+      FriendRequestSettingNobody: '&7你已拒收任何好友请求，要恢复接收，请使用 &6/friend settings &7更改好友请求接收状态&7。'
+      PartyInvitedByEveryone: '&7当前你可以被所有人邀请加入游戏，要更改此状态，请输入&6/friend settings invite &7设置为只能被好友邀请。'
+      PartyInvitedByFriends: '&7你现在只能被好友邀请加入游戏,要更改此状态，请输入&6/friend settings invite &7设置为可以被任何人邀请。'
+      CanJump: '&7当前你的朋友可以申请传送到你身边，要禁用申请，请输入&6/friend settings jump &7禁用传送'
+      CanNotJump: '&7现在你的朋友无法申请传送到你身边了，要原谅他的话，请输入&6/friend settings jump &7启用传送'
+      ShowAsOnline: '&7当前你的状态为&a在线&7，要更改为离线状态，请输入&6/friend settings offline'
+      ShowAsOffline: '&7此时你显示为&c离线&7，要更改为在线状态,请输入&6/friend settings offline'
+      ShowOnlineStatusChangeNotification: '&7当前如果盆友在线状态发生改变，你将获得通知。如果想禁用该通知，请输入&6/friend settings notifyonline&7。'
+      DoNotShowOnlineStatusChangeNotification: '&7现在你盆友的在线状态改变时，你将不会获得通知，要恢复的话，请输入&6/friend settings notifyonline&7。'
+      ReceivePM: '&7当前你已允许接收私人聊天，如果要禁用，输入&6/friend settings message&7禁用私聊。'
+      DoNotReceivePM: '&7你的好友私聊处于禁用状态，如果要恢复，输入&6/friend settings message&7恢复私聊.'
+      ChangeThisSettingsHover: '&a单击此处更改此设置。'
+      NotFound: ' &7找不到指定的设置或者你没有权限更改此设置。'
+      SplitLine: '&8&m------------------------------------------------'
+    Jump:
+      AlreadyOnTheServer: ' &7你已经在这个服务器上。'
+      JoinedTheServer: ' &7现在你&e[PLAYER]&7已经在同一个服务器上.'
+      CanNotJump: ' &7你不能传送到这个人身上。'
+    List:
+      NoFriendsAdded: '&7你目前没有任何朋友。'
+      FriendsList: ' &7这些是你的朋友：LINE_BREAK &7- '
+      PageDoesNotExist: '&7给定的页面不存在。'
+      NextPage: ' &7要查看更多朋友，请使用 /friend list [PAGE]。'
+      OnlineTitle: ' &a(online)&7, 当前在 [SERVER_ON] 玩'
+      OfflineTitle: ' &c(offline)&7, 最后一次出现在 [LAST_ONLINE]'
+      TimeColor: '&7'
+      OnlineColor: '&a'
+      OfflineColor: '&c'
+      PlayerSplit: 'LINE_BREAK &7- '
+    MSG:
+      CanNotWriteToHim: ' &7你不能给这个玩家发消息。'
+      NoOneEverWroteToYou: ' &7你之前没有收到任何消息。'
+      MessageMissing: ' &7你可以留言。'
+      PlayerWillReceiveMessageOnJoin: ' &7当玩家上线后，他会收到你的留言。'
+      SentMessage: ' &e[SENDERNAME] &5-> &e[PLAYER]&7:[CONTENT]'
+      ColorOfMessage: '&7'
+    Remove:
+      Removed: ' &7你删除了朋友 &e[PLAYER]&7.'
+      FriendRemovedYou: ' &e[PLAYER]&7 将你从他的好友列表中删除。'
+PAFAdmin:
+  Command:
+    DeletePlayer:
+      PlayerDeleted: ' &7玩家&e[PLAYER]&7的PartyandFriends的所有数据都被删除了。'
+      DeletionAborted: ' &c一个扩展程序阻止了删除玩家。'
+    MustBeExecutedByConsole: '&c这个命令需要控制台执行。
+       此消息可以在“AdminCommands.TopCommand.PlayerMessage”下的messages.yml中更改，
+       如果在 config.yml 中激活了 UseOwnLanguageFile。'
