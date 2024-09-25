@@ -2,10 +2,6 @@
 This project is licensed under the [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/).
 You may share this work but are not allowed to modify, remix, or build upon it.
 This project is subject to All Rights Reserved. No usage, distribution, or modification is permitted without explicit permission.
-分享汉化材质包和lang配置文件
-我的个人交流QQ群
-群号372349526
-群链接https://qm.qq.com/q/6pZW9VsobC
 # This repository is used to translate plugins and mods
 
 
