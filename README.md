@@ -1,7 +1,11 @@
 # 翻译国外mod或者插件
-This project is licensed under the [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/).
-You may use this work but are not allowed to modify, remix, or build upon it.
-This project is subject to All Rights Reserved. No usage, distribution, or modification is permitted without explicit permission.
+## License
+
+This project is licensed under **All Rights Reserved**.  
+© [2024] [FZDNSZYT].  
+No part of this work may be reproduced, distributed, or transmitted in any form without prior written permission from the copyright holder.
+![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)
+
 # This repository is used to translate plugins and mods
 
 
