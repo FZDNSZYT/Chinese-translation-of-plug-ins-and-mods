@@ -1,4 +1,5 @@
 # 翻译国外mod或者插件
+# This project is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 分享汉化材质包和lang配置文件
 我的个人交流QQ群
 群号372349526
